@@ -6,6 +6,10 @@
 /**
  * Import variables
  */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
 
 @import "variables";
 
@@ -24,6 +28,14 @@
  */
 
 @import "layouts/home";
+
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Fredoka", "sans-serif";
+  }
+}
 
 /**
  * Do NOT include anything else in this file!
