@@ -2,7 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      "hero-bg": "url('./assets/images/happy-elena.jpg')",
+    },
   },
   plugins: [],
 };
